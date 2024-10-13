@@ -1,0 +1,61 @@
+{
+
+    "books" : [
+        {
+            "id": 1,
+            "title": "just one more chapter",
+            "price": 35,
+            "img": "../assets/just one more chapter.webp"
+        },
+        {
+            "id": 2,
+            "title": "The Lord Of The Rings",
+            "price": 32.55,
+            "img": "../assets/the lord of the ring.webp"
+        },
+        {
+            "id": 3,
+            "title": "News of the world",
+            "price": 40,
+            "img": "../assets/news of the world.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Read more books",
+            "price": 38,
+            "img": "../assets/read more books.webp"
+        },
+        {
+            "id": 5,
+            "title": "Startup nation",
+            "price": 50,
+            "img": "../assets/startup nation.jpg"
+        },
+        {
+            "id": 6,
+            "title": "The famous five.jpg",
+            "price": 26,
+            "img": "../assets/the famous five.jpg"
+        },
+        {
+            "id": 7,
+            "title": "The alchemist",
+            "price": 33,
+            "img": "../assets/the alchemist.webp"
+        },
+        {
+            "id": 8,
+            "title": "The genius of israel",
+            "price": 55,
+            "img": "../assets/the genius of israel.webp"
+        },
+        {
+            "id": 9,
+            "title": "War and peace",
+            "price": 17,
+            "img": "../assets/war and peace.webp"
+        }
+        
+    ]
+
+}
