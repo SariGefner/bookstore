@@ -1,0 +1,111 @@
+/* just for the visiabilty, it will not stay here for long time */
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav table {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav button:hover, nav table:hover {
+    background-color: #555;
+}
+
+/* Books Table Section */
+#booksTable {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: auto;
+    height: 80%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer button:hover {
+    background-color: #777;
+}
+
+/* Paging Section */
+#pageing {
+    display: flex;
+    gap: 10px;
+}
+
+#pageing div {
+    background-color: #9c27b0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    #booksTable {
+        margin: 10px 0;
+    }
+}
