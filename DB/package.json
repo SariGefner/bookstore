@@ -1,0 +1,12 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "a simple CRUD app using json data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch database.json --port 3000"
+  },
+  "author": "",
+  "license": "ISC"
+}
