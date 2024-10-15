@@ -1,53 +1,36 @@
 {
   "books": [
-    {
-      "id": "1",
-      "title": "just one more chapter",
-      "price": 35,
-      "img": "../assets/just one more chapter.webp",
-      "action": "read"
-    },
+
     {
       "id": "2",
       "title": "The Lord Of The Rings",
       "price": 32.55,
-      "img": "../assets/the lord of the ring.webp",
+      "img": "../assets/books/the lord of the ring.webp",
       "action": "not read"
     },
     {
       "id": "3",
       "title": "News of the world",
       "price": 40,
-      "img": "../assets/news of the world.jpg",
+      "img": "../assets/books/news of the world.jpg",
       "action": "read"
     },
     {
       "id": "4",
       "title": "Read more books",
       "price": 38,
-      "img": "../assets/read more books.webp",
+      "img": "../assets/books/read more books.webp",
       "action": "not read"
     },
-    {
-      "id": "5",
-      "title": "Startup nation",
-      "price": 50,
-      "img": "../assets/startup nation.jpg",
-      "action": "read"
-    },
+
     {
       "id": "6",
-      "title": "The famous five.jpg",
-      "price": 26,
-      "img": "../assets/the famous five.jpg",
-      "action": "not read"
-    },
-    {
-      "id": "8",
-      "title": "The genius of israel",
-      "price": 55,
-      "img": "../assets/the genius of israel.webp",
-      "action": "not read"
+      "title": "The famous five",
+      "price": 35,
+      "img": "../assets/books/the_famous_five.jpg",
+      "action": "read"
+
     }
+
   ]
 }
